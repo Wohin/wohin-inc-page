@@ -24,6 +24,12 @@
     "gatsby-source-filesystem": "^5.7.0",
     "gatsby-transformer-sharp": "^5.7.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-bootstrap" : "*",
+    "bootstrap" : "*",
+    "react-helmet" : "*",
+    "react-bootstrap-icons" : "*",
+    "react-animation-on-scroll" : "*",
+    "glightbox" : "*"
   }
 }
