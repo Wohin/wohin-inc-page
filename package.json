@@ -29,7 +29,9 @@
     "bootstrap" : "*",
     "react-helmet" : "*",
     "react-bootstrap-icons" : "*",
+    "bootstrap-icons" : "*",
     "react-animation-on-scroll" : "*",
-    "glightbox" : "*"
+    "glightbox" : "*",
+    "react-player" : "*"
   }
 }
