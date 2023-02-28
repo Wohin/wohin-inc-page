@@ -1,6 +1,10 @@
 import * as React from "react"
 import Hero from '../sections/Hero'
 import About from '../sections/About'
+import DiscoveryServices from '../sections/DiscoveryServices'
+import DataDriven from '../sections/DataDriven'
+import BeyondData from '../sections/BeyondData'
+import YouTubeDemo from '../sections/YouTubeDemo'
 import {Helmet} from "react-helmet";
 
 
@@ -15,6 +19,10 @@ export default function Home() {
   <Hero />
   <main id="main">
     <About />
+    <DataDriven />
+    <DiscoveryServices/>
+    <BeyondData />
+    <YouTubeDemo />
   </main>
   </>
   );
