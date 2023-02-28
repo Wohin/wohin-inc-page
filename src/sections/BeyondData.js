@@ -74,7 +74,7 @@ function Service3() {
   return (
   <Row className="justify-content-center">
     <Col lg={8} className="details order-2 order-lg-1">
-    <h3>Stress testing</h3>
+    <h3>Stress Testing</h3>
     <p class="fst-italic"> Measure reliability under worst-case scenarios </p>
     <div class="content">
       <SpecialBullets descriptions={descriptions} />
@@ -96,14 +96,14 @@ const BeyondData = props => (
   <Container>
     <Row className="justify-content-center form-group">
     <div class="section-title">
-      <h2>Hackable workflows</h2>
+      <h2>Why Us? Hackable workflows</h2>
       <p> Optimize literally everything.</p>
     </div>
     <p> We expose primitives in your design and simulation tools to be compatible with modern solvers. </p>
     </Row>
 
     <Row>
-    <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+    <Tab.Container id="left-tabs-optimization" defaultActiveKey="first">
       <Row>
       <Col sm={3}>
         <Nav variant="pills" className="flex-column">

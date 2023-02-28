@@ -69,14 +69,14 @@ const DataDriven = props => (
     <Container>
       <Row className="justify-content-center form-group">
         <div class="section-title">
-          <h2>Automated Insights</h2>
+          <h2>Why Us?  Automated Insights</h2>
           <p>Powered by Machine Learning</p>
         </div>
         <p>See how our ML Research can help you: </p>
       </Row>
 
       <Row>
-        <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+        <Tab.Container id="left-tabs-data" defaultActiveKey="first">
           <Row>
             <Col sm={3}>
               <Nav variant="pills" className="flex-column">

@@ -24,7 +24,7 @@ const DiscoveryServices = props => (
         animateOnce="true"
       >
         <div class="section-title">
-          <h2>Accessible tools</h2>
+          <h2>Why Us? Accessible tools</h2>
         </div>
         <div class="discovery-header1">
           <h1>No supercomputer?</h1>
