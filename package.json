@@ -12,10 +12,13 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "@mdx-js/react": "^2.3.0",
+    "bootstrap": "*",
+    "bootstrap-icons": "*",
     "gatsby": "^5.7.0",
     "gatsby-plugin-image": "^3.7.0",
     "gatsby-plugin-manifest": "^5.7.0",
@@ -23,15 +26,16 @@
     "gatsby-plugin-sharp": "^5.7.0",
     "gatsby-source-filesystem": "^5.7.0",
     "gatsby-transformer-sharp": "^5.7.0",
+    "glightbox": "*",
     "react": "^18.2.0",
+    "react-animation-on-scroll": "*",
+    "react-bootstrap": "*",
+    "react-bootstrap-icons": "*",
     "react-dom": "^18.2.0",
-    "react-bootstrap" : "*",
-    "bootstrap" : "*",
-    "react-helmet" : "*",
-    "react-bootstrap-icons" : "*",
-    "bootstrap-icons" : "*",
-    "react-animation-on-scroll" : "*",
-    "glightbox" : "*",
-    "react-player" : "*"
+    "react-helmet": "*",
+    "react-player": "*"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4"
   }
 }
