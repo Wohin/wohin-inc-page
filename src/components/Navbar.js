@@ -9,6 +9,8 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 
+import './Navbar.css'
+
 const select = (el, all = false) => {
   el = el.trim()
   if (all) {

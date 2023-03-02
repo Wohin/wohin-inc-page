@@ -7,6 +7,8 @@ import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 import { CheckCircle } from 'react-bootstrap-icons'
 
+import './Team.css'
+
 const Team = (props) => (
   // class="d-flex align-items-center"
   <>

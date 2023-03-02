@@ -9,6 +9,8 @@ import { CheckCircle } from 'react-bootstrap-icons'
 import Nav from 'react-bootstrap/Nav'
 import Tab from 'react-bootstrap/Tab'
 
+import './DataDriven.css'
+
 const Service1 = (props) => (
   <Row className="justify-content-center">
     <Col lg={8} className="details order-2 order-lg-1">

@@ -10,6 +10,8 @@ import Card from 'react-bootstrap/Card'
 
 import { Envelope } from 'react-bootstrap-icons'
 
+import './ContactUs.css'
+
 const ContactUs = (props) => (
   // class="d-flex align-items-center"
   <>

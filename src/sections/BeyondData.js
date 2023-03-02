@@ -11,6 +11,8 @@ import Tab from 'react-bootstrap/Tab'
 
 import SpecialBullets from '../components/SpecialBullets'
 
+import './DataDriven.css'
+
 function Service1() {
   const descriptions = [
     'Differentiable Boundary Conditions.',

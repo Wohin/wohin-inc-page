@@ -7,6 +7,8 @@ import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 import { CheckCircle } from 'react-bootstrap-icons'
 
+import './DiscoveryServices.css'
+
 const CascadedLists = (props) => (
   // class="d-flex align-items-center"
   <section id="discovery" class="discovery d-flex align-items-center">

@@ -7,6 +7,8 @@ import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 import { CheckCircle } from 'react-bootstrap-icons'
 
+import './About.css'
+
 const About = (props) => (
   <section id="about" class="about d-flex align-items-center">
     <Container>

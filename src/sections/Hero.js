@@ -5,6 +5,8 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 import Button from 'react-bootstrap/Button'
 
+import './Hero.css'
+
 const Hero = (props) => (
   <>
     <section id="hero" class="d-flex align-items-center">

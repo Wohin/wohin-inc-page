@@ -1,7 +1,8 @@
 import React from 'react'
 
 import 'animate.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+
+import '../assets/scss/style.scss'
 
 import '../assets/css/style.css'
 

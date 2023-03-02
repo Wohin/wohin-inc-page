@@ -7,6 +7,8 @@ import 'glightbox'
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 import { StaticImage } from 'gatsby-plugin-image'
 
+import './YouTubeDemo.css'
+
 const YouTubeDemo = (props) => (
   <>
     <section id="trebuchet" class="d-flex align-items-center">
