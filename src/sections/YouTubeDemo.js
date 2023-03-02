@@ -26,6 +26,7 @@ const YouTubeDemo = props => (
     </div>
     <h1>A <span>supersonic trebuchet</span> </h1>
     <h3> you can build in your basement.</h3>
+    <br></br>
     {/* <h2>As seen on YouTube </h2> */}
     </AnimationOnScroll>
 

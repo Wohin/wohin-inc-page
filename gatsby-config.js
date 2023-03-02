@@ -4,12 +4,12 @@
 module.exports = {
   siteMetadata: {
     title: `Wohin Inc`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.wohin.ca`
   },
   plugins: ["gatsby-plugin-image", {
     resolve: 'gatsby-plugin-manifest',
     options: {
-      "icon": "src/assets/images/icon.png"
+      "icon": "src/assets/img/Logos/wohin-icon.png"
     }
   }, "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',

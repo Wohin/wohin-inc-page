@@ -15,6 +15,9 @@ const Hero = props => (
   <>
   <section id="hero" class="d-flex align-items-center">
     <Container className="position-relative text-center text-lg-start">
+        <div class="section-title">
+          <h2>W O H I N ?</h2>
+        </div>
       <Row>
         <Col lg={8} className="align-self-center">
 
@@ -23,6 +26,7 @@ const Hero = props => (
             <h1>Barriers to</h1>
             <h1>Engineering</h1>
           </AnimationOnScroll>
+          <br></br>
 
           <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce="true" delay="100" >
             <h2>We are consultants who empower</h2>

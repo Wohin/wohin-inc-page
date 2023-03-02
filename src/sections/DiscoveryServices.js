@@ -32,9 +32,9 @@ const DiscoveryServices = props => (
 
           <h2>We use machine learning to adapt workflows to your hardware.</h2>
           <br></br>
-          <p>
+          {/* <p>
             Some scientific problems - such as climate change - have deadlines associated with them. 
-          </p>
+          </p> */}
           <p>
             We worked with researchers at the Frontier Development Laboratory to model the relationship between Carbon Sequestration and Seismic Activity.
           </p>

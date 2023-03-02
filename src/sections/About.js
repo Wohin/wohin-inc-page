@@ -14,7 +14,7 @@ import { CheckCircle } from "react-bootstrap-icons";
 const About = props => (
   <section id="about" class="about d-flex align-items-center">
     <Container>
-      <Row className="justify-content-center  form-group">
+      <Row className="justify-content-center form-group">
         <Col lg={8}>
           <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce="true">
             <h1> What would <i>you</i> <span>explore?</span></h1>
@@ -26,30 +26,30 @@ const About = props => (
             We want more people to be scientists and engineers.  We want research to be more democratic.  We want society as a whole to explore more questions.
             </p>
             <br></br>
-            <p>Our mission is to empower you in three ways:</p>
+            <p>Our mission is lower the barrier to entry, and streamline the process of innovation.  We accomplish this in three ways:</p>
           </AnimationOnScroll>
         </Col>
       </Row>
     <Row className="justify-content-center form-group">
       <Col lg={4}>
         <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce="true" delay="200">
-          <div class="box">
-            <span>Make Insights More Automated</span>
-          </div>
+        <div class="box">
+          <span>Making Workflows More Hackable</span>
+        </div>
         </AnimationOnScroll>
       </Col>
       <Col lg={4}>
         <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce="true" delay="400">
           <div class="box">
-            <span>Make Tools More Accessible</span>
+            <span>Making Insights More Automated</span>
           </div>
         </AnimationOnScroll>
       </Col>
       <Col lg={4}>
         <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce="true" delay="600">
-        <div class="box">
-          <span>Make Workflows More Hackable</span>
-        </div>
+          <div class="box">
+            <span>Making Tools More Accessible</span>
+          </div>
         </AnimationOnScroll>
       </Col>
       

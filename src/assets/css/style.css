@@ -247,217 +247,33 @@ h6 {
 /**
 * Desktop Navigation 
 */
-.navbar {
-  padding: 0;
-}
 
-.navbar ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  list-style: none;
-  align-items: center;
-}
-
-.navbar li {
-  position: relative;
-}
-
-.navbar a,
-.navbar a:focus {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 0 10px 30px;
-  color: #fff;
-  white-space: nowrap;
-  transition: 0.3s;
-  font-size: 14px;
-}
-
-.navbar a i,
-.navbar a:focus i {
-  font-size: 12px;
-  line-height: 0;
-  margin-left: 5px;
-}
-
-.navbar a:hover,
+/* .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #d9ba85;
+} */
+
+
+.navbar a:hover{
+  color: #d9ba85;
 }
 
-.navbar .dropdown ul {
-  display: block;
-  position: absolute;
-  left: 14px;
-  top: calc(100% + 30px);
-  margin: 0;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 0;
-  visibility: hidden;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: 0.3s;
-  border-radius: 4px;
+.navbar .navbar-collapse {
+  justify-content: center;
 }
 
-.navbar .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar .dropdown ul a {
-  padding: 10px 20px;
-  color: #444444;
-}
-
-.navbar .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar .dropdown ul a:hover,
-.navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .nav-link.active {
   color: #cda45e;
 }
 
-.navbar .dropdown:hover>ul {
-  opacity: 1;
-  top: 100%;
-  visibility: visible;
+#response-navbar-nav {
+  font-size: 20px;
+  color: #ffff;
 }
 
-.navbar .dropdown .dropdown ul {
-  top: 0;
-  left: calc(100% - 30px);
-  visibility: hidden;
-}
 
-.navbar .dropdown .dropdown:hover>ul {
-  opacity: 1;
-  top: 0;
-  left: 100%;
-  visibility: visible;
-}
-
-@media (max-width: 1366px) {
-  .navbar .dropdown .dropdown ul {
-    left: -90%;
-  }
-
-  .navbar .dropdown .dropdown:hover>ul {
-    left: -100%;
-  }
-}
-
-/**
-* Mobile Navigation 
-*/
-.mobile-nav-toggle {
-  color: #fff;
-  font-size: 28px;
-  cursor: pointer;
-  display: none;
-  line-height: 0;
-  transition: 0.5s;
-}
-
-@media (max-width: 991px) {
-  .mobile-nav-toggle {
-    display: block;
-  }
-
-  .navbar ul {
-    display: none;
-  }
-}
-
-.navbar-mobile {
-  position: fixed;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
-  transition: 0.3s;
-  z-index: 999;
-}
-
-.navbar-mobile .mobile-nav-toggle {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-}
-
-.navbar-mobile ul {
-  display: block;
-  position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
-  border-radius: 6px;
-  background-color: #fff;
-  overflow-y: auto;
-  transition: 0.3s;
-}
-
-.navbar-mobile a,
-.navbar-mobile a:focus {
-  padding: 10px 20px;
-  font-size: 15px;
-  color: #1a1814;
-}
-
-.navbar-mobile a:hover,
-.navbar-mobile .active,
-.navbar-mobile li:hover>a {
-  color: #cda45e;
-}
-
-.navbar-mobile .getstarted,
-.navbar-mobile .getstarted:focus {
-  margin: 15px;
-}
-
-.navbar-mobile .dropdown ul {
-  position: static;
-  display: none;
-  margin: 10px 20px;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 1;
-  visibility: visible;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-}
-
-.navbar-mobile .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar-mobile .dropdown ul a {
-  padding: 10px 20px;
-}
-
-.navbar-mobile .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar-mobile .dropdown ul a:hover,
-.navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
-  color: #cda45e;
-}
-
-.navbar-mobile .dropdown>.dropdown-active {
-  display: block;
-}
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -2049,9 +1865,9 @@ ul.no-bullets {
 }
 
 /*--------------------------------------------------------------
-# Chefs
+# team
 --------------------------------------------------------------*/
-.chefs .member {
+.team .member {
   text-align: center;
   margin-bottom: 20px;
   background: #343a40;
@@ -2059,7 +1875,11 @@ ul.no-bullets {
   overflow: hidden;
 }
 
-.chefs .member .member-info {
+.team .img-fluid {
+  padding: 12em;
+}
+
+.team .member .member-info {
   opacity: 0;
   position: absolute;
   bottom: 0;
@@ -2069,7 +1889,7 @@ ul.no-bullets {
   transition: 0.2s;
 }
 
-.chefs .member .member-info-content {
+.team .member .member-info-content {
   position: absolute;
   left: 0;
   right: 0;
@@ -2077,21 +1897,21 @@ ul.no-bullets {
   transition: bottom 0.4s;
 }
 
-.chefs .member .member-info-content h4 {
+.team .member .member-info-content h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
   color: #fff;
 }
 
-.chefs .member .member-info-content span {
+.team .member .member-info-content span {
   font-style: italic;
   display: block;
   font-size: 13px;
   color: #fff;
 }
 
-.chefs .member .social {
+.team .member .social {
   position: absolute;
   left: 0;
   bottom: -38px;
@@ -2101,34 +1921,34 @@ ul.no-bullets {
   text-align: center;
 }
 
-.chefs .member .social a {
+.team .member .social a {
   transition: color 0.3s;
   color: #fff;
   margin: 0 10px;
   display: inline-block;
 }
 
-.chefs .member .social a:hover {
+.team .member .social a:hover {
   color: #cda45e;
 }
 
-.chefs .member .social i {
+.team .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
 
-.chefs .member:hover .member-info {
+.team .member:hover .member-info {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
   opacity: 1;
   transition: 0.4s;
 }
 
-.chefs .member:hover .member-info-content {
+.team .member:hover .member-info-content {
   bottom: 60px;
   transition: bottom 0.4s;
 }
 
-.chefs .member:hover .social {
+.team .member:hover .social {
   bottom: 0;
   transition: bottom ease-in-out 0.4s;
 }
@@ -2136,6 +1956,16 @@ ul.no-bullets {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+#contact {
+  background: 
+    linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3) ), 
+    url("../img/satellite-unsplash.jpg")
+    top right;
+  background-size: cover;
+  position: relative;
+  padding: 200px 0;
+}
+
 .contact .info {
   width: 100%;
 }

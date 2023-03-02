@@ -25,7 +25,7 @@ function Service1() {
   <Row className="justify-content-center">
     <Col lg={8} className="details order-2 order-lg-1">
     <h3>Parameter Tuning</h3>
-    <p class="fst-italic"> Bring the simulation into the optimization loop: find the optimal parameters for your design. </p>
+    <p class="fst-italic"> Bring your favourite simulation tools into the optimization loop.   Find the best parameters to use in your designs. </p>
     <div class="content">
       <SpecialBullets descriptions={descriptions} />
     </div>
@@ -50,7 +50,7 @@ function Service2() {
   <Row className="justify-content-center">
     <Col lg={8} className="details order-2 order-lg-1">
     <h3>Underactuated Control</h3>
-    <p class="fst-italic"> Learn optimal policies for controlling behaviour without precision feedback.</p>
+    <p class="fst-italic"> Need to dynamically control behaviour with weak actuators?  Learn optimal policies to generate actions from inputs.</p>
     <div class="content">
       <SpecialBullets descriptions={descriptions} />
     </div>
@@ -68,14 +68,14 @@ function Service2() {
 function Service3() {
   const descriptions = [
     "Stress analysis.", 
-    "Adversarial attacks.",
-    "Isolate bottlenecks."
+    "Bottleneck isolation.",
+    "Adversarial perturbation."
   ]
   return (
   <Row className="justify-content-center">
     <Col lg={8} className="details order-2 order-lg-1">
     <h3>Stress Testing</h3>
-    <p class="fst-italic"> Measure reliability under worst-case scenarios </p>
+    <p class="fst-italic"> Want to measure the reliability of your designs?  Let us search for scenarios that trigger component failure. </p>
     <div class="content">
       <SpecialBullets descriptions={descriptions} />
     </div>
@@ -97,9 +97,12 @@ const BeyondData = props => (
     <Row className="justify-content-center form-group">
     <div class="section-title">
       <h2>Why Us? Hackable workflows</h2>
-      <p> Optimize literally everything.</p>
+      <p> If it can be programmed, it can be optimized.</p>
     </div>
-    <p> We expose primitives in your design and simulation tools to be compatible with modern solvers. </p>
+    <p> From Ant Colony Optimization to the Wolfe Algorithm, we're experts at mathematical programming.</p>
+    <p> We can also expose primitives in your design and simulation tools to be compatible with modern solvers.</p>
+    <p> See what the power of optimization can help you unlock. </p>
+    
     </Row>
 
     <Row>

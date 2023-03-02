@@ -6,8 +6,6 @@ import '../assets/css/style.css'
 import { CheckCircle } from "react-bootstrap-icons";
 
 function SpecialBullets ({descriptions}) {
-    console.log('YO MAMA!')
-    console.log(descriptions)
     return (
     <ul class="no-bullets">
         {descriptions.map((description) => {
