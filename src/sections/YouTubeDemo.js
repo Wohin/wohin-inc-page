@@ -3,62 +3,71 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../assets/css/style.css'
 
-import {Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from 'react-bootstrap'
 
 import 'glightbox'
 import 'glightbox/dist/css/glightbox.min.css'
 
-import { AnimationOnScroll } from 'react-animation-on-scroll';
-import { StaticImage } from 'gatsby-plugin-image';
+import { AnimationOnScroll } from 'react-animation-on-scroll'
+import { StaticImage } from 'gatsby-plugin-image'
 
-const YouTubeDemo = props => (
+const YouTubeDemo = (props) => (
   <>
-  <section id="trebuchet" class="d-flex align-items-center">
-  <Container className="position-relative text-center text-lg-start">
-  <Row>
-    <Col lg={9} className="align-self-center">
-    <AnimationOnScroll 
-      animateIn="animate__fadeInLeft" 
-      animateOnce="true"
-    >
-    <div class="section-title">
-      <h2>Project Demo</h2>
-    </div>
-    <h1>A <span>supersonic trebuchet</span> </h1>
-    <h3> you can build in your basement.</h3>
-    <br></br>
-    {/* <h2>As seen on YouTube </h2> */}
-    </AnimationOnScroll>
+    <section id="trebuchet" class="d-flex align-items-center">
+      <Container className="position-relative text-center text-lg-start">
+        <Row>
+          <Col lg={9} className="align-self-center">
+            <AnimationOnScroll
+              animateIn="animate__fadeInLeft"
+              animateOnce="true"
+            >
+              <div class="section-title">
+                <h2>Project Demo</h2>
+              </div>
+              <h1>
+                A <span>supersonic trebuchet</span>{' '}
+              </h1>
+              <h3> you can build in your basement.</h3>
+              <br></br>
+              {/* <h2>As seen on YouTube </h2> */}
+            </AnimationOnScroll>
+          </Col>
 
-    </Col>
-    
-    {/* <Col className="col-lg-4 d-flex align-items-center justify-content-center position-relative"> */}
-    <Col lg={1} className="d-flex align-items-center justify-content-center position-relative">
-    <AnimationOnScroll animateIn="animate__bounceIn" delay="100" animateOnce="true">
-      <a href="https://www.youtube.com/watch?v=gdXOS-B0Bus" class="glightbox play-btn"></a>
-    </AnimationOnScroll>
-    </Col>
-    {/* <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200"> */}
-    {/* <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a> */}
-    {/* </div> */}
+          {/* <Col className="col-lg-4 d-flex align-items-center justify-content-center position-relative"> */}
+          <Col
+            lg={1}
+            className="d-flex align-items-center justify-content-center position-relative"
+          >
+            <AnimationOnScroll
+              animateIn="animate__bounceIn"
+              delay="100"
+              animateOnce="true"
+            >
+              <a
+                href="https://www.youtube.com/watch?v=gdXOS-B0Bus"
+                class="glightbox play-btn"
+              ></a>
+            </AnimationOnScroll>
+          </Col>
+          {/* <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200"> */}
+          {/* <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a> */}
+          {/* </div> */}
 
-  {/* </div> */}
-  {/* </div> */}
-  </Row>
-  <Row>
-  <Col lg={8} className="align-self-center position-fixed">
-    <div style={{"padding-bottom" : 50}}>
-      <br></br>
-      <br></br>
-      <br></br>
-    </div>
-  </Col>
-  </Row>
-  </Container>
-  </section>
+          {/* </div> */}
+          {/* </div> */}
+        </Row>
+        <Row>
+          <Col lg={8} className="align-self-center position-fixed">
+            <div style={{ 'padding-bottom': 50 }}>
+              <br></br>
+              <br></br>
+              <br></br>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </section>
   </>
 )
 
 export default YouTubeDemo
-
-
