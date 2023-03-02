@@ -7,7 +7,6 @@ import Button from 'react-bootstrap/Button'
 import { Link } from 'gatsby'
 
 import { StaticImage } from 'gatsby-plugin-image'
-import '../assets/css/style.css'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 
 const select = (el, all = false) => {

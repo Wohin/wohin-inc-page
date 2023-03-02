@@ -1,8 +1,5 @@
 import React from 'react'
 
-import 'bootstrap/dist/css/bootstrap.min.css'
-import '../assets/css/style.css'
-
 import { CheckCircle } from 'react-bootstrap-icons'
 
 function SpecialBullets({ descriptions }) {

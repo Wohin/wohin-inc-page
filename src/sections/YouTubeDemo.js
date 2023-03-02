@@ -1,12 +1,8 @@
 import React from 'react'
 
-import 'bootstrap/dist/css/bootstrap.min.css'
-import '../assets/css/style.css'
-
 import { Col, Container, Row } from 'react-bootstrap'
 
 import 'glightbox'
-import 'glightbox/dist/css/glightbox.min.css'
 
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 import { StaticImage } from 'gatsby-plugin-image'

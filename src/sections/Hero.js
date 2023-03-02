@@ -1,11 +1,6 @@
 import React from 'react'
 
-import 'bootstrap/dist/css/bootstrap.min.css'
-import '../assets/css/style.css'
-
 import { Col, Container, Row } from 'react-bootstrap'
-
-import 'glightbox'
 
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 import Button from 'react-bootstrap/Button'

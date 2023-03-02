@@ -1,8 +1,5 @@
 import React from 'react'
 
-import 'bootstrap/dist/css/bootstrap.min.css'
-import '../assets/css/style.css'
-
 import { Col, Container, Row } from 'react-bootstrap'
 
 import { StaticImage } from 'gatsby-plugin-image'
