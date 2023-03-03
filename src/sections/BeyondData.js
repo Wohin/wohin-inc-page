@@ -5,7 +5,6 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { StaticImage } from 'gatsby-plugin-image'
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 
-import { CheckCircle } from 'react-bootstrap-icons'
 import Nav from 'react-bootstrap/Nav'
 import Tab from 'react-bootstrap/Tab'
 

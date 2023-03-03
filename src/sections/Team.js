@@ -5,7 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { StaticImage } from 'gatsby-plugin-image'
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 
-import { CheckCircle } from 'react-bootstrap-icons'
+import { Facebook, Instagram, Linkedin, Twitter } from 'react-bootstrap-icons'
 
 import './Team.css'
 
@@ -34,16 +34,16 @@ const Team = (props) => (
                 </div>
                 <div className="social">
                   <a href="">
-                    <i className="bi bi-twitter"></i>
+                    <Twitter />
                   </a>
                   <a href="">
-                    <i className="bi bi-facebook"></i>
+                    <Facebook />
                   </a>
                   <a href="">
-                    <i className="bi bi-instagram"></i>
+                    <Instagram />
                   </a>
                   <a href="">
-                    <i className="bi bi-linkedin"></i>
+                    <Linkedin />
                   </a>
                 </div>
               </div>
@@ -63,16 +63,16 @@ const Team = (props) => (
                 </div>
                 <div className="social">
                   <a href="">
-                    <i className="bi bi-twitter"></i>
+                    <Twitter />
                   </a>
                   <a href="">
-                    <i className="bi bi-facebook"></i>
+                    <Facebook />
                   </a>
                   <a href="">
-                    <i className="bi bi-instagram"></i>
+                    <Instagram />
                   </a>
                   <a href="">
-                    <i className="bi bi-linkedin"></i>
+                    <Linkedin />
                   </a>
                 </div>
               </div>
@@ -92,16 +92,16 @@ const Team = (props) => (
                 </div>
                 <div className="social">
                   <a href="">
-                    <i className="bi bi-twitter"></i>
+                    <Twitter />
                   </a>
                   <a href="">
-                    <i className="bi bi-facebook"></i>
+                    <Facebook />
                   </a>
                   <a href="">
-                    <i className="bi bi-instagram"></i>
+                    <Instagram />
                   </a>
                   <a href="">
-                    <i className="bi bi-linkedin"></i>
+                    <Linkedin />
                   </a>
                 </div>
               </div>
