@@ -10,17 +10,17 @@ import { CheckCircle } from 'react-bootstrap-icons'
 import './Footer.css'
 
 const Footer = (props) => (
-  // class="d-flex align-items-center"
+  // className="d-flex align-items-center"
   <footer id="footer">
-    <div class="container">
-      <div class="copyright">
+    <div className="container">
+      <div className="copyright">
         &copy; Copyright{' '}
         <strong>
           <span>Wohin Inc</span>
         </strong>
         . All Rights Reserved
       </div>
-      <div class="credits">
+      <div className="credits">
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>

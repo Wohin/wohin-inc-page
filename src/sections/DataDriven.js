@@ -15,7 +15,10 @@ const Service1 = (props) => (
   <Row className="justify-content-center">
     <Col lg={8} className="details order-2 order-lg-1">
       <h3>Interpret Latent Patterns</h3>
-      <p class="fst-italic"> What are our models learning during training? </p>
+      <p className="fst-italic">
+        {' '}
+        What are our models learning during training?{' '}
+      </p>
       <p>
         {' '}
         The current narrative is that models learn features to support their
@@ -42,7 +45,7 @@ const Service2 = (props) => (
   <Row className="justify-content-center">
     <Col lg={8} className="details order-2 order-lg-1">
       <h3>Detect Anomalies</h3>
-      <p class="fst-italic">
+      <p className="fst-italic">
         {' '}
         How does the training data impact model parameters? How do we detect
         changes in the data distribution?{' '}
@@ -74,7 +77,7 @@ const Service3 = (props) => (
   <Row className="justify-content-center">
     <Col lg={8} className="details order-2 order-lg-1">
       <h3>Trust your models</h3>
-      <p class="fst-italic">
+      <p className="fst-italic">
         {' '}
         How do we know our models will work outside the lab?
       </p>
@@ -99,10 +102,10 @@ const Service3 = (props) => (
 )
 
 const DataDriven = (props) => (
-  <section id="datadriven" class="datadriven">
+  <section id="datadriven" className="datadriven">
     <Container>
       <Row className="justify-content-center form-group">
-        <div class="section-title">
+        <div className="section-title">
           <h2>Why Us? Automated Insights</h2>
           <p>Powered by Machine Learning</p>
         </div>

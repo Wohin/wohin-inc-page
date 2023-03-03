@@ -10,13 +10,13 @@ import { CheckCircle } from 'react-bootstrap-icons'
 import './DiscoveryServices.css'
 
 const CascadedLists = (props) => (
-  // class="d-flex align-items-center"
-  <section id="discovery" class="discovery d-flex align-items-center">
-    {/* <div class="container" data-aos="fade-up"> */}
+  // className="d-flex align-items-center"
+  <section id="discovery" className="discovery d-flex align-items-center">
+    {/* <div className="container" data-aos="fade-up"> */}
     <Container>
       <Row className="justify-content-center form-group">
         <Col lg={8}>
-          <div class="discovery-header">
+          <div className="discovery-header">
             <AnimationOnScroll animateIn="animate__zoomIn" animateOnce="true">
               <h1>
                 {' '}
@@ -35,7 +35,7 @@ const CascadedLists = (props) => (
 
       <Row className="justify-content-center form-group">
         <Col lg={4} className="pt-4 pt-lg-0 order-1 order-lg-1 content">
-          <div class="section-title">
+          <div className="section-title">
             <h2>Discover</h2>
             <p>Find Latent Patterns</p>
           </div>
@@ -78,7 +78,7 @@ const CascadedLists = (props) => (
           </AnimationOnScroll>
         </Col>
         <Col lg={4} classname="pt-4 pt-lg-0 order-2 order-lg-1 content">
-          <div class="section-title">
+          <div className="section-title">
             <h2>Discover</h2>
             <p>Model Stochastic Behaviour</p>
           </div>
@@ -94,7 +94,7 @@ const CascadedLists = (props) => (
 
       <Row className="justify-content-center form-group">
         <Col lg={4} classname="pt-4 pt-lg-0 order-1 order-lg-1 content">
-          <div class="section-title">
+          <div className="section-title">
             <h2>Discover</h2>
             <p> Identify Outliers</p>
           </div>

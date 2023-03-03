@@ -8,9 +8,9 @@ import Button from 'react-bootstrap/Button'
 import './Hero.css'
 
 const Hero = (props) => (
-  <section id="hero" class="d-flex align-items-center">
+  <section id="hero" className="d-flex align-items-center">
     <Container className="position-relative text-center text-lg-start">
-      <div class="section-title">
+      <div className="section-title">
         <h2>W O H I N ?</h2>
       </div>
       <Row>
@@ -32,8 +32,8 @@ const Hero = (props) => (
               {' '}
               <span>curiosity-driven</span> research
             </h2>
-            <div class="btns">
-              <a href="#about" class="btn-menu animated fadeInUp scrollto">
+            <div className="btns">
+              <a href="#about" className="btn-menu animated fadeInUp scrollto">
                 What would you explore?
               </a>
             </div>

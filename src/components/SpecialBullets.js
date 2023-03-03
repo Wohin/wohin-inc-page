@@ -4,7 +4,7 @@ import { CheckCircle } from 'react-bootstrap-icons'
 
 function SpecialBullets({ descriptions }) {
   return (
-    <ul class="no-bullets">
+    <ul className="no-bullets">
       {descriptions.map((description) => {
         return (
           <li>

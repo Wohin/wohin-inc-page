@@ -10,7 +10,7 @@ import { CheckCircle } from 'react-bootstrap-icons'
 import './About.css'
 
 const About = (props) => (
-  <section id="about" class="about d-flex align-items-center">
+  <section id="about" className="about d-flex align-items-center">
     <Container>
       <Row className="justify-content-center form-group">
         <Col lg={8}>
@@ -46,7 +46,7 @@ const About = (props) => (
             animateOnce="true"
             delay="200"
           >
-            <div class="box">
+            <div className="box">
               <span>Making Workflows More Hackable</span>
             </div>
           </AnimationOnScroll>
@@ -57,7 +57,7 @@ const About = (props) => (
             animateOnce="true"
             delay="400"
           >
-            <div class="box">
+            <div className="box">
               <span>Making Insights More Automated</span>
             </div>
           </AnimationOnScroll>
@@ -68,7 +68,7 @@ const About = (props) => (
             animateOnce="true"
             delay="600"
           >
-            <div class="box">
+            <div className="box">
               <span>Making Tools More Accessible</span>
             </div>
           </AnimationOnScroll>

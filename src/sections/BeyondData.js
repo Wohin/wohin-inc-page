@@ -23,12 +23,12 @@ function Service1() {
     <Row className="justify-content-center">
       <Col lg={8} className="details order-2 order-lg-1">
         <h3>Parameter Tuning</h3>
-        <p class="fst-italic">
+        <p className="fst-italic">
           {' '}
           Bring your favourite simulation tools into the optimization loop. Find
           the best parameters to use in your designs.{' '}
         </p>
-        <div class="content">
+        <div className="content">
           <SpecialBullets descriptions={descriptions} />
         </div>
       </Col>
@@ -53,12 +53,12 @@ function Service2() {
     <Row className="justify-content-center">
       <Col lg={8} className="details order-2 order-lg-1">
         <h3>Underactuated Control</h3>
-        <p class="fst-italic">
+        <p className="fst-italic">
           {' '}
           Need to dynamically control behaviour with weak actuators? Learn
           optimal policies to generate actions from inputs.
         </p>
-        <div class="content">
+        <div className="content">
           <SpecialBullets descriptions={descriptions} />
         </div>
       </Col>
@@ -83,12 +83,12 @@ function Service3() {
     <Row className="justify-content-center">
       <Col lg={8} className="details order-2 order-lg-1">
         <h3>Stress Testing</h3>
-        <p class="fst-italic">
+        <p className="fst-italic">
           {' '}
           Want to measure the reliability of your designs? Let us search for
           scenarios that trigger component failure.{' '}
         </p>
-        <div class="content">
+        <div className="content">
           <SpecialBullets descriptions={descriptions} />
         </div>
       </Col>
@@ -104,10 +104,10 @@ function Service3() {
 }
 
 const BeyondData = (props) => (
-  <section id="beyonddata" class="datadriven">
+  <section id="beyonddata" className="datadriven">
     <Container>
       <Row className="justify-content-center form-group">
-        <div class="section-title">
+        <div className="section-title">
           <h2>Why Us? Hackable workflows</h2>
           <p> If it can be programmed, it can be optimized.</p>
         </div>

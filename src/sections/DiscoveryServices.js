@@ -10,18 +10,18 @@ import { CheckCircle } from 'react-bootstrap-icons'
 import './DiscoveryServices.css'
 
 const DiscoveryServices = (props) => (
-  // class="d-flex align-items-center"
-  <section id="discovery" class="discovery d-flex align-items-center">
-    {/* <div class="container" data-aos="fade-up"> */}
+  // className="d-flex align-items-center"
+  <section id="discovery" className="discovery d-flex align-items-center">
+    {/* <div className="container" data-aos="fade-up"> */}
     <Container>
       <Row className="justify-content-center form-group">
         <Col lg={6} className="align-self-center">
           {/* <Animation type="fadeUp" delay={800}> */}
           <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce="true">
-            <div class="section-title">
+            <div className="section-title">
               <h2>Why Us? Accessible tools</h2>
             </div>
-            <div class="discovery-header1">
+            <div className="discovery-header1">
               <h1>No supercomputer?</h1>
               <h1>
                 <span>No problem.</span>

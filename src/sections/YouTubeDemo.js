@@ -10,12 +10,12 @@ import { StaticImage } from 'gatsby-plugin-image'
 import './YouTubeDemo.css'
 
 const YouTubeDemo = (props) => (
-  <section id="trebuchet" class="d-flex align-items-center">
+  <section id="trebuchet" className="d-flex align-items-center">
     <Container className="position-relative text-center text-lg-start">
       <Row>
         <Col lg={9} className="align-self-center">
           <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce="true">
-            <div class="section-title">
+            <div className="section-title">
               <h2>Project Demo</h2>
             </div>
             <h1>
@@ -39,12 +39,12 @@ const YouTubeDemo = (props) => (
           >
             <a
               href="https://www.youtube.com/watch?v=gdXOS-B0Bus"
-              class="glightbox play-btn"
+              className="glightbox play-btn"
             ></a>
           </AnimationOnScroll>
         </Col>
-        {/* <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200"> */}
-        {/* <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a> */}
+        {/* <div className="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200"> */}
+        {/* <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" className="glightbox play-btn"></a> */}
         {/* </div> */}
 
         {/* </div> */}

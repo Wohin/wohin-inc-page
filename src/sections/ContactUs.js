@@ -13,10 +13,10 @@ import { Envelope } from 'react-bootstrap-icons'
 import './ContactUs.css'
 
 const ContactUs = (props) => (
-  <section id="contact" class="contact">
+  <section id="contact" className="contact">
     <Container>
       <Row>
-        <div class="section-title">
+        <div className="section-title">
           <h2>Contact Us</h2>
           <p> Send us a message!</p>
         </div>
