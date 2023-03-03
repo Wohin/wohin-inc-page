@@ -36,7 +36,8 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-player": "^2.11.2",
-    "sass": "^1.58.3"
+    "sass": "^1.58.3",
+    "fslightbox-react": "*"
   },
   "devDependencies": {
     "prettier": "^2.8.4"

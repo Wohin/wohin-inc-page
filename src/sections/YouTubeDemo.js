@@ -1,16 +1,25 @@
-import React from 'react'
+import React, { useState } from "react";
 
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row, Button } from 'react-bootstrap'
 
-import 'glightbox'
+import FsLightbox from "fslightbox-react";
 
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 import './YouTubeDemo.css'
 
-const YouTubeDemo = (props) => (
+
+function YouTubeDemo(props){
+  const [toggler, setToggler] = useState(false);
+  return (
   <section id="trebuchet" className="d-flex align-items-center">
     <Container className="position-relative text-center text-lg-start">
+      <FsLightbox
+        toggler={toggler}
+        sources={[
+          'https://www.youtube.com/watch?v=gdXOS-B0Bus'
+        ]}
+      />
       <Row>
         <Col lg={9} className="align-self-center">
           <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce="true">
@@ -22,11 +31,8 @@ const YouTubeDemo = (props) => (
             </h1>
             <h3> you can build in your basement.</h3>
             <br></br>
-            {/* <h2>As seen on YouTube </h2> */}
           </AnimationOnScroll>
         </Col>
-
-        {/* <Col className="col-lg-4 d-flex align-items-center justify-content-center position-relative"> */}
         <Col
           lg={1}
           className="d-flex align-items-center justify-content-center position-relative"
@@ -36,18 +42,9 @@ const YouTubeDemo = (props) => (
             delay="100"
             animateOnce="true"
           >
-            <a
-              href="https://www.youtube.com/watch?v=gdXOS-B0Bus"
-              className="glightbox play-btn"
-            ></a>
+            <Button onClick={() => setToggler(!toggler)} className="play-btn" />
           </AnimationOnScroll>
         </Col>
-        {/* <div className="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200"> */}
-        {/* <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" className="glightbox play-btn"></a> */}
-        {/* </div> */}
-
-        {/* </div> */}
-        {/* </div> */}
       </Row>
       <Row>
         <Col lg={8} className="align-self-center position-fixed">
@@ -60,6 +57,6 @@ const YouTubeDemo = (props) => (
       </Row>
     </Container>
   </section>
-)
+)}
 
 export default YouTubeDemo
