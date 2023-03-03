@@ -2,7 +2,6 @@ import React from 'react'
 
 import { Col, Container, Row } from 'react-bootstrap'
 
-import { StaticImage } from 'gatsby-plugin-image'
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 import './About.css'

@@ -1,13 +1,10 @@
 import React, { Component } from 'react'
 
-import Container from 'react-bootstrap/Container'
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
-import Button from 'react-bootstrap/Button'
+import { Button, Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
+
 import { Link } from 'gatsby'
 
 import { StaticImage } from 'gatsby-plugin-image'
-import NavDropdown from 'react-bootstrap/NavDropdown'
 
 import './Navbar.css'
 

@@ -3,7 +3,6 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 
 import { AnimationOnScroll } from 'react-animation-on-scroll'
-import Button from 'react-bootstrap/Button'
 
 import './Hero.css'
 

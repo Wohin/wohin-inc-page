@@ -1,12 +1,8 @@
 import React from 'react'
 
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Nav, Row, Tab } from 'react-bootstrap'
 
 import { StaticImage } from 'gatsby-plugin-image'
-import { AnimationOnScroll } from 'react-animation-on-scroll'
-
-import Nav from 'react-bootstrap/Nav'
-import Tab from 'react-bootstrap/Tab'
 
 import './DataDriven.css'
 

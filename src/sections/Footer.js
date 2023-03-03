@@ -1,16 +1,13 @@
 import React from 'react'
 
-import { Col, Container, Row } from 'react-bootstrap'
-
-import { StaticImage } from 'gatsby-plugin-image'
-import { AnimationOnScroll } from 'react-animation-on-scroll'
+import { Container } from 'react-bootstrap'
 
 import './Footer.css'
 
 const Footer = (props) => (
   // className="d-flex align-items-center"
   <footer id="footer">
-    <div className="container">
+    <Container>
       <div className="copyright">
         &copy; Copyright{' '}
         <strong>
@@ -21,7 +18,7 @@ const Footer = (props) => (
       <div className="credits">
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
-    </div>
+    </Container>
   </footer>
 )
 

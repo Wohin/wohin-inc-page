@@ -5,7 +5,6 @@ import { Col, Container, Row } from 'react-bootstrap'
 import 'glightbox'
 
 import { AnimationOnScroll } from 'react-animation-on-scroll'
-import { StaticImage } from 'gatsby-plugin-image'
 
 import './YouTubeDemo.css'
 

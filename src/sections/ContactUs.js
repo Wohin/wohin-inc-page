@@ -1,11 +1,6 @@
 import React from 'react'
 
-import { Col, Container, Row } from 'react-bootstrap'
-
-import { StaticImage } from 'gatsby-plugin-image'
-import { AnimationOnScroll } from 'react-animation-on-scroll'
-
-import Card from 'react-bootstrap/Card'
+import { Container, Row } from 'react-bootstrap'
 
 import { Envelope } from 'react-bootstrap-icons'
 
