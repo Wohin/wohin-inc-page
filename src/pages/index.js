@@ -1,5 +1,8 @@
 import * as React from 'react'
 
+import Layout from '../components/Layout'
+import SEO from '../components/SEO'
+
 import Hero from '../sections/Hero'
 import About from '../sections/About'
 import DiscoveryServices from '../sections/DiscoveryServices'
@@ -10,8 +13,6 @@ import Team from '../sections/Team'
 
 import ContactUs from '../sections/ContactUs'
 
-import Layout from '../components/Layout'
-import SEO from '../components/SEO'
 import Footer from '../sections/Footer'
 import BrandedNavbar from '../components/Navbar'
 
