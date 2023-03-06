@@ -20,6 +20,7 @@
     "animate.css": "^4.1.1",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.3",
+    "fslightbox-react": "^1.7.2",
     "gatsby": "^5.7.0",
     "gatsby-plugin-image": "^3.7.0",
     "gatsby-plugin-manifest": "^5.7.0",
@@ -36,8 +37,7 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-player": "^2.11.2",
-    "sass": "^1.58.3",
-    "fslightbox-react": "*"
+    "sass": "^1.58.3"
   },
   "devDependencies": {
     "prettier": "^2.8.4"
