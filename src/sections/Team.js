@@ -51,7 +51,8 @@ const Team = (props) => (
           <Col lg={4} className="col-md-6">
             <div className="member" data-aos="zoom-in" data-aos-delay="100">
               <StaticImage
-                src="../assets/img/Team/mark.png"
+                src="../assets/img/Team/mark.jpg"
+                width={600}
                 className="img-fluid"
                 alt=""
               />
