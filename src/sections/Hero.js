@@ -15,9 +15,13 @@ const Hero = (props) => (
       <Row>
         <Col lg={8} className="align-self-center">
           <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce="true">
-            <h1>Removing</h1>
-            <h1>Barriers to</h1>
-            <h1>Engineering</h1>
+            <h1 className="fw-bold display-1 lh-1 text-uppercase">
+              Removing
+              <br />
+              Barriers to
+              <br />
+              Engineering
+            </h1>
           </AnimationOnScroll>
           <br></br>
 
