@@ -508,7 +508,8 @@ section {
 
 #specials {
   /* background: url("../img/hero-bg.jpg") top center; */
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     /* url("../img/Hero/banner.jpg")  */
       url('../img/About/abstract-graph-unsplash-flipped.jpg') center center;
   background-size: cover;

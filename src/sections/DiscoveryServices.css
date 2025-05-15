@@ -37,7 +37,8 @@
 .discovery {
   width: 100%;
   /* height: 100vh; */
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     /* url("../img/discovery-bg.jpg")  */
       /* url("../img/discovery/simulated_bh.jpg") */
       /* url("../img/About/abstract-graph-unsplash.jpg") */
