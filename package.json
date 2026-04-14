@@ -20,24 +20,24 @@
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1",
-    "fslightbox-react": "^2.0.0",
-    "gatsby": "^5.15.0",
-    "gatsby-plugin-image": "^3.15.0",
-    "gatsby-plugin-manifest": "^5.15.0",
-    "gatsby-plugin-mdx": "^5.15.0",
-    "gatsby-plugin-sass": "^6.15.0",
-    "gatsby-plugin-sharp": "^5.15.0",
-    "gatsby-source-filesystem": "^5.15.0",
-    "gatsby-transformer-sharp": "^5.15.0",
-    "react": "^18.3.1",
+    "fslightbox-react": "^2.0.3",
+    "gatsby": "^5.16.1",
+    "gatsby-plugin-image": "^3.16.0",
+    "gatsby-plugin-manifest": "^5.16.0",
+    "gatsby-plugin-mdx": "^5.16.0",
+    "gatsby-plugin-sass": "^6.16.0",
+    "gatsby-plugin-sharp": "^5.16.0",
+    "gatsby-source-filesystem": "^5.16.0",
+    "gatsby-transformer-sharp": "^5.16.0",
+    "react": "^19.2.5",
     "react-animation-on-scroll": "^5.1.0",
     "react-bootstrap": "^2.10.10",
     "react-bootstrap-icons": "^1.11.6",
-    "react-dom": "^18.3.1",
+    "react-dom": "^19.2.5",
     "react-helmet": "^6.1.0",
-    "sass": "^1.97.1"
+    "sass": "^1.99.0"
   },
   "devDependencies": {
-    "prettier": "^3.7.4"
+    "prettier": "^3.8.2"
   }
 }
